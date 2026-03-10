@@ -1,0 +1,18 @@
+# GitHub Pages configuration
+# See: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll
+
+title: "Il mio curriculum"
+description: "Pagina personale con curriculum vitae"
+url: ""
+baseurl: ""
+
+theme: minima
+
+# Optional: enable syntax highlighting and plugins
+markdown: kramdown
+highlighter: rouge
+
+# Social links (optional)
+social:
+  - name: GitHub
+    url: https://github.com/mariannamiola
