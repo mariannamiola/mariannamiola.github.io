@@ -37,6 +37,7 @@ Use **bold** to highlight key themes or areas. -->
     <div class="tl-role">Professional Qualification · Politecnico di Torino (Italy)</div>
     <ul class="tl-desc">
       Engineering license - civil and environmental sector (first session, 2019)
+    </ul>
   </li>
   <li>
     <div class="tl-date">2015 – 2018</div>

@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+<div class="layout">
 
 <!-- ══════════════════════════════════════════
      SIDEBAR
@@ -19,17 +20,17 @@
   <div class="sb-photo-placeholder">&#128100;</div>
 
   <div class="sb-name">Marianna Miola</div>
-  <div class="sb-role">Researcher (III level) · CNR-IMATI</div>
+  <div class="sb-role">Your Role · Institution</div>
 
   <ul class="sb-links">
 
     <li>
-      <a href="mailto:marianna.miola@cnr.it">
+      <a href="/cdn-cgi/l/email-protection#a4ddcbd1d6cac5c9c1e4c1dcc5c9d4c8c18ac7cbc9">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
           <rect x="2" y="4" width="20" height="16" rx="2"/>
           <path d="m2 7 10 7 10-7"/>
         </svg>
-        marianna.miola@cnr.it
+        <span class="__cf_email__" data-cfemail="c5bcaab0b7aba4a8a085a0bda4a8b5a9a0eba6aaa8">[email&#160;protected]</span>
       </a>
     </li>
 
@@ -71,7 +72,7 @@
     </li>
 
     <li>
-      <a href="https://orcid.org/0000-0001-8711-6695" target="_blank" rel="noopener">
+      <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor">
           <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.2 4.8a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4zm-.9 4.2h1.8v10.2H6.3V9zm4.2 0h4.8c4.56 0 6.54 2.7 6.54 5.1 0 2.7-2.4 5.1-6.54 5.1h-4.8V9zm1.8 1.8v6.6h2.76c2.52 0 4.44-1.38 4.44-3.3 0-1.74-1.62-3.3-4.44-3.3h-2.76z"/>
         </svg>
@@ -81,13 +82,13 @@
 
   </ul>
 
-  <!-- Page navigation
+  <!-- Page navigation -->
   <nav class="sb-nav">
     <a href="{{ '/' | relative_url }}"{% if page.url == '/' or page.url == '/index.html' %} class="active"{% endif %}>Home</a>
     <a href="{{ '/research/' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>Research</a>
     <a href="{{ '/talks/' | relative_url }}"{% if page.url contains 'talks' %} class="active"{% endif %}>Talks &amp; Seminars</a>
     <a href="{{ '/resources/' | relative_url }}"{% if page.url contains 'resources' %} class="active"{% endif %}>Resources</a>
-  </nav> -->
+  </nav>
 
 </aside>
 
@@ -109,12 +110,4 @@
 
     <footer class="site-footer">
       © {{ 'now' | date: "%Y" }} Marianna Miola ·
-      Powered by <a href="https://jekyllrb.com">Jekyll</a> ·
-      Last updated: {{ 'now' | date: "%Y-%m-%d" }}
-    </footer>
-
-  </div>
-</div>
-
-</body>
-</html>
+      Powered by <a href
