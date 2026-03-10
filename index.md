@@ -13,13 +13,13 @@ My research sits at the intersection of **computational geometry**, **geostatist
 
 ## Research Interests
 
-**Spatial uncertainty modeling** — I develop stochastic methods for the spatial prediction of environmental variables (e.g., hydraulic properties of soils, geochemical distributions) on unstructured 2D/3D meshes. The core idea is to treat environmental variables as regionalized quantities and model their spatial variability through geostatistics and sequential simulation.
+**Spatial uncertainty modeling** — I develop stochastic methods for the spatial prediction of environmental variables (e.g., hydraulic properties of soils, geochemical heterogeneity) on unstructured 2D/3D meshes. The core idea is to treat environmental variables as regionalized quantities and model their spatial variability through geostatistics and sequential simulation (i.e., SGS and SIS algorithms).
 
-**Computational geometry for geosciences** — I work on mesh-based techniques for representing complex geological bodies: from reconstructing layered subsurface geometries from heterogeneous point clouds, to building tetrahedral volumetric models suited for numerical simulation and uncertainty analysis.
+**Computational geometry for geosciences** — I work on mesh-based techniques for representing complex geological bodies: from reconstructing layered subsurface geometries from heterogeneous geospatial data, to building tetrahedral volumetric models suited for numerical simulation and uncertainty analysis.
 
 **Reproducibility in scientific workflows** — I am interested in methodological tools for tracking and documenting multi-stage computational pipelines in geoscientific contexts, ensuring long-term reproducibility and reusability of results (*Embeddable Workflow Persistence*, EWoPe).
 
-**Geomorphological processes** — I am currently working on modeling rainfall-induced phenomena (erosion, shallow landslides) using stochastic and deep learning approaches, within the framework of the [National Biodiversity Future Center (NBFC)](https://www.nbfc.it) project.
+**Geomorphological processes** — I am currently working on injecting biodiversity in the modeling of rainfall-induced phenomena (erosion, shallow landslides), within the framework of the [National Biodiversity Future Center (NBFC)](https://www.nbfc.it) Project.
 
 ## Education
 
@@ -28,8 +28,8 @@ My research sits at the intersection of **computational geometry**, **geostatist
     <div class="tl-date">2022 – 2024</div>
     <div class="tl-role">PhD in Science and Technologies for the Earth and Environment · University of Genoa, Italy</div>
     <ul class="tl-desc">
-      <li>Curriculum: Earth Sciences · Grade: With highest honors · Dissertation: 15 April 2025</li>
-      <li>Thesis: <em>Increase the knowledge of Natural Systems through the evaluation of uncertainty of environmental data: operational theory and application</em></li>
+      Curriculum: Earth Sciences · Grade: With highest honors · Dissertation: 15 April 2025
+      Thesis: <em>Increase the knowledge of Natural Systems through the evaluation of uncertainty of environmental data: operational theory and application</em>
       <li>Supervisors: Prof. Marino Vetuschi Zuccolini · Dr. Simone Pittaluga</li>
       <li>Green PhD Scholarship (NOP "Research and Innovation" 2014–2020, REACT-EU)</li>
       <li>Affiliated Research Associate at CNR-IMATI during the PhD · Industrial partner: DIGIMAT (Matera)</li>
@@ -101,13 +101,6 @@ My research sits at the intersection of **computational geometry**, **geostatist
     <div class="tl-role">Best Poster Award · STAG 2024, Smart Tools and Applications in Graphics</div>
     <ul class="tl-desc">
       <li>First author: <em>Advancing Environmental Modeling with Unstructured Meshes: Current Research and Development</em>.</li>
-    </ul>
-  </li>
-  <li>
-    <div class="tl-date">2024</div>
-    <div class="tl-role">SGP 2024 Software Award · Symposium on Geometry Processing</div>
-    <ul class="tl-desc">
-      <li>Contributor to the <a href="https://github.com/mlivesu/cinolib">CinoLib</a> C++ library for polygonal/polyhedral mesh processing.</li>
     </ul>
   </li>
 </ul>
