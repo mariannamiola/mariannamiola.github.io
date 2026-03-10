@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-# Hi, I'm Marianna
+# Marianna Miola
 
 I am a III level Researcher (fixed-term) at [CNR-IMATI](https://www.imati.cnr.it) (Institute for Applied Mathematics and Information Technologies "Enrico Magenes", National Research Council of Italy) in Genoa, Italy. I hold a PhD in Science and Technologies for the Earth and Environment from the University of Genoa (2025, with highest honors).
 
@@ -37,35 +37,6 @@ My research sits at the intersection of **computational geometry**, **geostatist
     </ul>
   </li>
 </ul> -->
-
-## Skills
-
-<table class="skills-table">
-  <tr>
-    <td>Programming</td>
-    <td>C++, C, Python, R, Matlab, Bash</td>
-  </tr>
-  <tr>
-    <td>Geometry libraries</td>
-    <td>CinoLib, Triangle, TetGen, TetWild</td>
-  </tr>
-  <tr>
-    <td>Visualization</td>
-    <td>ParaView, MeshLab, Matplotlib, VTK</td>
-  </tr>
-  <tr>
-    <td>Geospatial tools</td>
-    <td>QGIS, GRASS GIS, GDAL, PROJ</td>
-  </tr>
-  <tr>
-    <td>Parallel computing</td>
-    <td>OpenMP</td>
-  </tr>
-  <tr>
-    <td>Languages</td>
-    <td>Italian (native) · English B2 (IELTS 5.5) · French A1</td>
-  </tr>
-</table>
 
 ## Collaborations
 
