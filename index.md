@@ -3,7 +3,7 @@ layout: default
 title: "Home"
 ---
 
-# Hi, I'm Marianna
+# Hi, I'm Marianna Miola
 
 A short, direct introduction goes here. Write two or three sentences about who you are,
 your current position, and what you work on. Keep it personal but professional —
@@ -87,4 +87,4 @@ Use **bold** to highlight key themes or areas.
 ## Collaborations
 
 I am open to collaborations and joint projects. If you are interested in working together,
-feel free to [send me an email](mailto:yourname@example.com).
+feel free to [send me an email](mailto:marianna.miola@cnr.it).
