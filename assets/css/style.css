@@ -6,7 +6,7 @@
 
 /* ── Variables ──────────────────────────────────────────── */
 :root {
-  --sidebar-w:    210px;
+  --sidebar-w:    260px;
   --content-max:  700px;
 
   /* Sidebar — same bg as page */
@@ -146,7 +146,9 @@ body {
   color: var(--sb-fg);
   text-decoration: none;
   transition: color .18s;
-  word-break: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .sb-links a:hover { color: var(--text); }
@@ -321,10 +323,10 @@ code {
 }
 
 .timeline li {
-  padding: 1.4rem 0;
+  padding: .75rem 0;
   border-bottom: 1px solid var(--border);
   color: var(--text-soft);
-  font-size: .975rem;
+  font-size: .9rem;
 }
 
 .timeline li:first-child { border-top: 1px solid var(--border); }
@@ -332,27 +334,29 @@ code {
 
 .tl-date {
   font-family: var(--mono);
-  font-size: .7rem;
+  font-size: .68rem;
   letter-spacing: .08em;
   color: var(--text-muted);
   text-transform: uppercase;
-  margin-bottom: .3rem;
+  margin-bottom: .15rem;
 }
 
 .tl-role {
   font-weight: 600;
   color: var(--text);
-  font-size: 1rem;
-  margin-bottom: .2rem;
+  font-size: .9rem;
+  margin-bottom: .1rem;
 }
 
 .tl-desc {
-  margin-top: .35rem;
-  padding-left: 0;
+  margin-top: .2rem;
+  padding-left: 1rem;
   color: var(--text-soft);
+  font-size: .85rem;
+  line-height: 1.5;
 }
 
-.tl-desc li { margin-bottom: .15rem; }
+.tl-desc li { margin-bottom: .05rem; }
 
 /* ── Entry list (talks, papers, resources) ──────────── */
 .entry-list {

@@ -47,11 +47,11 @@ My research combines **computational geometry**, **geostatistics**, and **enviro
     Software for 3D geometric modeling of stratified deposits with applications in geophysics. Developed during the GEO3D Research Fellowship at CNR-IMATI. <em>Role: Author, designer, developer.</em>
   </li>
 
-  <li>
+  <!-- <li>
     <div class="entry-meta">C++ Library · SGP 2024 Software Award</div>
     <div class="entry-title"><a href="https://github.com/mlivesu/cinolib">CinoLib</a></div>
     C++ library for polygonal/polyhedral mesh processing (lead developer: Marco Livesu, CNR-IMATI). <em>Role: contributor.</em>
-  </li>
+  </li> -->
 
 </ul>
 
@@ -61,15 +61,15 @@ My research combines **computational geometry**, **geostatistics**, and **enviro
 
 <ul class="entry-list">
 
-  <li>
+  <!-- <li>
     <div class="entry-meta">Italian Journal of Engineering Geology and Environment · 2026</div>
     <div class="entry-title">Prediction of rainfall-induced shallow landslides using Deep Learning at geographic scales: an application to the Liguria Region (NW Italy)</div>
     Laura Barberis, <strong>Marianna Miola</strong>, Marino Vetuschi Zuccolini, Giacomo Pepe, Alessandro Cesare Mondini
-  </li>
+  </li> -->
 
   <li>
-    <div class="entry-meta">Computers & Geosciences · 2026 · <a href="https://doi.org/10.1016/j.cageo.2025.106099">DOI</a></div>
-    <div class="entry-title">EWoPe: a light Embeddable WOrkflow PErsistence tool for geoscientific pipeline reproducibility</div>
+    <div class="entry-meta">Computers & Geosciences · 2026 </div>
+    <div class="entry-title"><a href="https://doi.org/10.1016/j.cageo.2025.106099">DOI</a>EWoPe: a light Embeddable WOrkflow PErsistence tool for geoscientific pipeline reproducibility</div>
     <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Micaela Raviola, Marino Vetuschi Zuccolini
   </li>
 
@@ -114,7 +114,7 @@ My research combines **computational geometry**, **geostatistics**, and **enviro
   <li>
     <div class="entry-meta">STAG 2025 — Eurographics Italian Chapter · <a href="https://doi.org/10.2312/stag.20251318">DOI</a></div>
     <div class="entry-title">A lightweight open-source tool for Meshing within Geosciences</div>
-    <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Micaela Raviola, Marino Vetuschi Zuccolini · <em>Oral presentation</em>
+    <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Micaela Raviola, Marino Vetuschi Zuccolini
   </li>
 
   <li>
@@ -132,7 +132,7 @@ My research combines **computational geometry**, **geostatistics**, and **enviro
   <li>
     <div class="entry-meta">STAG 2021 — Eurographics Italian Chapter · <a href="https://doi.org/10.2312/stag.20211473">DOI</a></div>
     <div class="entry-title">3D Modeling and Integration of Heterogeneous Geo-data</div>
-    <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Michela Mortara, Marino Vetuschi Zuccolini, Gianmario Imitazione · <em>Oral presentation</em>
+    <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Michela Mortara, Marino Vetuschi Zuccolini, Gianmario Imitazione
   </li>
 
 </ul>
