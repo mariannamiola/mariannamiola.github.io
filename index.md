@@ -27,19 +27,24 @@ Use **bold** to highlight key themes or areas. -->
 <ul class="timeline">
   <li>
     <div class="tl-date">2022 – 2024</div>
-    <div class="tl-role">Ph.D. in [Science and Technologies for the Earth and Environments (STAT)] · University of Genoa (Italy)</div>
+    <div class="tl-role">Ph.D. in Science and Technologies for the Earth and Environments (STAT) · University of Genoa (Italy)</div>
     <ul class="tl-desc">
-      <li>Thesis: <em>[Increase the knowledge of Natural Systems through the evaluation of uncertainty of environmental data: operational theory and application]</em></li>
-      <li>Supervisor: Prof. [Name]</li>
+      Thesis: <em>Increase the knowledge of Natural Systems through the evaluation of uncertainty of environmental data: operational theory and application</em>
     </ul>
   </li>
   <li>
-    <div class="tl-date">yyyy – yyyy</div>
-    <div class="tl-role">M.Sc. in [Program] · University XYZ</div>
+    <div class="tl-date">2019</div>
+    <div class="tl-role">Professional Qualification · Politecnico di Torino (Italy)</div>
+    <ul class="tl-desc">
+      Engineering license - civil and environmental sector (first session, 2019)
   </li>
   <li>
-    <div class="tl-date">yyyy – yyyy</div>
-    <div class="tl-role">B.Sc. in [Program] · University XYZ</div>
+    <div class="tl-date">2015 – 2018</div>
+    <div class="tl-role">M.Sc. in Geotechnical Civil Engineering · Politecnico di Torino (Italy)</div>
+  </li>
+  <li>
+    <div class="tl-date">2011 – 2015</div>
+    <div class="tl-role">B.Sc. Civil Engineering · Politecnico di Torino (Italy)</div>
   </li>
 </ul>
 
@@ -47,11 +52,11 @@ Use **bold** to highlight key themes or areas. -->
 
 <ul class="timeline">
   <li>
-    <div class="tl-date">mm/yyyy – present</div>
-    <div class="tl-role">Role · Company / Institution A</div>
+    <div class="tl-date">01/2025 – present</div>
+    <div class="tl-role">III level Researcher (fixed-term) · CNR-IMATI</div>
     <ul class="tl-desc">
-      <li>Brief description of responsibilities and key outcomes.</li>
-      <li>Technologies or methods: <code>Python</code>, <code>JavaScript</code></li>
+      <li>Researcher under the "National Biodiversity Future Center" NBFC Project for the development of reserach activities in the context of the Spoke 4 "Ecosystem functions, services and solutions".</li>
+      <li>Description and professional skills: development of computational methods for modeling rainfall-induced phenomena (erosion); geomorphological analysis with GIS support; code development (Python, R).</li>
     </ul>
   </li>
   <li>
