@@ -15,22 +15,22 @@
 ══════════════════════════════════════════ -->
 <aside class="sidebar">
 
-  <!-- Photo: uncomment and set your image path once you upload one -->
-  <!-- <img class="sb-photo" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="{{ site.title }}"> -->
+  <!-- Replace with your photo once uploaded to assets/img/profile.jpg -->
+  <!-- <img class="sb-photo" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="Marianna Miola"> -->
   <div class="sb-photo-placeholder">&#128100;</div>
 
   <div class="sb-name">Marianna Miola</div>
-  <div class="sb-role">Your Role · Institution</div>
+  <div class="sb-role">Researcher · CNR-IMATI</div>
 
   <ul class="sb-links">
 
     <li>
-      <a href="/cdn-cgi/l/email-protection#a4ddcbd1d6cac5c9c1e4c1dcc5c9d4c8c18ac7cbc9">
+      <a href="mailto:marianna.miola@cnr.it">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
           <rect x="2" y="4" width="20" height="16" rx="2"/>
           <path d="m2 7 10 7 10-7"/>
         </svg>
-        <span class="__cf_email__" data-cfemail="c5bcaab0b7aba4a8a085a0bda4a8b5a9a0eba6aaa8">[email&#160;protected]</span>
+        marianna.miola@cnr.it
       </a>
     </li>
 
@@ -40,7 +40,17 @@
           <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
           <circle cx="12" cy="9" r="2.5"/>
         </svg>
-        City, Country
+        Genoa, Italy
+      </span>
+    </li>
+
+    <li>
+      <span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+          <polyline points="9 22 9 12 15 12 15 22"/>
+        </svg>
+        CNR-IMATI
       </span>
     </li>
 
@@ -54,7 +64,7 @@
     </li>
 
     <li>
-      <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">
+      <a href="https://www.linkedin.com/in/marianna-miola" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor">
           <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM3.56 20.45h3.56V9H3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0z"/>
         </svg>
@@ -63,6 +73,7 @@
     </li>
 
     <li>
+      <!-- Replace YOURID with your actual Google Scholar user ID -->
       <a href="https://scholar.google.com/citations?user=YOURID" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor">
           <path d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
@@ -72,6 +83,7 @@
     </li>
 
     <li>
+      <!-- Replace with your actual ORCID -->
       <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor">
           <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.2 4.8a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4zm-.9 4.2h1.8v10.2H6.3V9zm4.2 0h4.8c4.56 0 6.54 2.7 6.54 5.1 0 2.7-2.4 5.1-6.54 5.1h-4.8V9zm1.8 1.8v6.6h2.76c2.52 0 4.44-1.38 4.44-3.3 0-1.74-1.62-3.3-4.44-3.3h-2.76z"/>
@@ -82,7 +94,6 @@
 
   </ul>
 
-  <!-- Page navigation -->
   <nav class="sb-nav">
     <a href="{{ '/' | relative_url }}"{% if page.url == '/' or page.url == '/index.html' %} class="active"{% endif %}>Home</a>
     <a href="{{ '/research/' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>Research</a>
@@ -98,7 +109,6 @@
 <div class="page-wrap">
   <div class="page-inner">
 
-    <!-- Top tab navigation (mirrors sidebar nav) -->
     <nav class="top-nav">
       <a href="{{ '/' | relative_url }}"{% if page.url == '/' or page.url == '/index.html' %} class="active"{% endif %}>Home</a>
       <a href="{{ '/research/' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>Research</a>
@@ -110,4 +120,13 @@
 
     <footer class="site-footer">
       © {{ 'now' | date: "%Y" }} Marianna Miola ·
-      Powered by <a href
+      Powered by <a href="https://jekyllrb.com">Jekyll</a> ·
+      Last updated: {{ 'now' | date: "%Y-%m-%d" }}
+    </footer>
+
+  </div>
+</div>
+
+</div><!-- /.layout -->
+</body>
+</html>
