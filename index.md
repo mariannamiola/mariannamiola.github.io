@@ -5,16 +5,16 @@ title: "Home"
 
 # Hi, I'm Marianna Miola
 
-A short, direct introduction goes here. Write two or three sentences about who you are,
-your current position, and what you work on. Keep it personal but professional —
-a reader landing on this page should immediately understand your background and focus.
+<!-- A short, direct introduction goes here. Write two or three sentences about who you are, -->
+<!-- your current position, and what you work on. Keep it personal but professional —
+a reader landing on this page should immediately understand your background and focus. -->
 
 <a class="btn-cv" href="/assets/CV.pdf" download>Download CV (PDF)</a>
 
 ## Research Interests
 
-Describe what you work on. A few focused paragraphs are more effective than bullet lists here.
-Use **bold** to highlight key themes or areas.
+<!-- Describe what you work on. A few focused paragraphs are more effective than bullet lists here.
+Use **bold** to highlight key themes or areas. -->
 
 **Topic A**: Brief description of what this area involves and why it matters to your work.
 
@@ -26,10 +26,10 @@ Use **bold** to highlight key themes or areas.
 
 <ul class="timeline">
   <li>
-    <div class="tl-date">yyyy – yyyy</div>
-    <div class="tl-role">Ph.D. in [Program] · University XYZ</div>
+    <div class="tl-date">2022 – 2024</div>
+    <div class="tl-role">Ph.D. in [Science and Technologies for the Earth and Environments (STAT)] · University of Genoa (Italy)</div>
     <ul class="tl-desc">
-      <li>Thesis: <em>[Thesis title]</em></li>
+      <li>Thesis: <em>[Increase the knowledge of Natural Systems through the evaluation of uncertainty of environmental data: operational theory and application]</em></li>
       <li>Supervisor: Prof. [Name]</li>
     </ul>
   </li>
