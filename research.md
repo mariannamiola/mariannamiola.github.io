@@ -3,11 +3,11 @@ layout: default
 title: "Publications"
 ---
 
-# Research
+<!-- # Research
 
 My research combines **computational geometry**, **geostatistics**, and **environmental modeling**. I develop methods and software for spatial uncertainty quantification on complex 3D geometries, with applications in geoscience, environmental monitoring, and geomorphology.
 
-<!-- ## Research Areas
+## Research Areas
 
 **Stochastic spatial modeling on unstructured meshes** — Development of geostatistical and stochastic simulation methods for predicting the spatial distribution of environmental variables (e.g., porosity, conductivity, geochemical concentrations) within 2D/3D unstructured geometric supports. The approach handles irregular boundaries, anisotropy, and geometric complexity typical of real geological bodies.
 
@@ -72,9 +72,9 @@ My research combines **computational geometry**, **geostatistics**, and **enviro
 <ul class="entry-list">
 
   <li>
-    <div class="entry-meta">STAG 2025 — Eurographics Italian Chapter</div>
+    <div class="entry-meta">Smart Tools and Applications in Graphics - STAG 2025</div>
     <div class="entry-title"><a href="https://doi.org/10.2312/stag.20251318">A lightweight open-source tool for Meshing within Geosciences</a></div>
-    <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Micaela Raviola, Marino Vetuschi Zuccolini · <em>Oral presentation</em>
+    <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Micaela Raviola, Marino Vetuschi Zuccolini
   </li>
 
   <li>
@@ -90,9 +90,9 @@ My research combines **computational geometry**, **geostatistics**, and **enviro
   </li>
 
   <li>
-    <div class="entry-meta">STAG 2021 — Eurographics Italian Chapter</div>
+    <div class="entry-meta">Smart Tools and Applications in Graphics - STAG 2021</div>
     <div class="entry-title"><a href="https://doi.org/10.2312/stag.20211473">3D Modeling and Integration of Heterogeneous Geo-data</a></div>
-    <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Michela Mortara, Marino Vetuschi Zuccolini, Gianmario Imitazione · <em>Oral presentation</em>
+    <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Michela Mortara, Marino Vetuschi Zuccolini, Gianmario Imitazione
   </li>
 
 </ul>
@@ -110,13 +110,13 @@ My research combines **computational geometry**, **geostatistics**, and **enviro
   </li>
 
   <li>
-    <div class="entry-meta">STAG 2024 — Best Poster Award</div>
+    <div class="entry-meta">Smart Tools and Applications in Graphics - STAG 2024 **Best Poster Award**</div>
     <div class="entry-title"><a href="https://doi.org/10.2312/stag.20241350">Advancing Environmental Modeling with Unstructured Meshes: Current Research and Development</a></div>
     <strong>Marianna Miola</strong>, Daniela Cabiddu, Michela Mortara, Simone Pittaluga, Tommaso Sorgente, Marino Vetuschi Zuccolini
   </li>
 
   <li>
-    <div class="entry-meta">STAG 2022 — Eurographics Italian Chapter</div>
+    <div class="entry-meta">Smart Tools and Applications in Graphics - STAG 2022</div>
     <div class="entry-title"><a href="https://doi.org/10.2312/stag.20221265">MUSE: Modeling Uncertainty as a Support for Environment</a></div>
     <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Marino Vetuschi Zuccolini
   </li>
