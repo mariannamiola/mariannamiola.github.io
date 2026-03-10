@@ -1,61 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }} · {{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="/assets/css/style.css">
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="header-inner">
-        <a class="brand" href="/">{{ site.title }}</a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
 
-        <nav class="site-nav">
-          <a href="/" class="nav-link{% if page.url == '/' %} active{% endif %}">Home</a>
-          <a href="/research/" class="nav-link{% if page.url == '/research/' %} active{% endif %}">Research</a>
-          <a href="/talks/" class="nav-link{% if page.url == '/talks/' %} active{% endif %}">Talks</a>
-          <a href="/resources/" class="nav-link{% if page.url == '/resources/' %} active{% endif %}">Resources</a>
-        </nav>
+<!-- ══════════════════════════════════════════
+     SIDEBAR
+══════════════════════════════════════════ -->
+<aside class="sidebar">
 
-        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
-          <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
-        </button>
-      </div>
-    </header>
+  <!-- Photo: uncomment and set your image path once you upload one -->
+  <!-- <img class="sb-photo" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="{{ site.title }}"> -->
+  <div class="sb-photo-placeholder">&#128100;</div>
 
-    <main class="page">
-      {{ content }}
-    </main>
+  <div class="sb-name">Marianna Miola</div>
+  <div class="sb-role">Your Role · Institution</div>
+
+  <ul class="sb-links">
+
+    <li>
+      <a href="mailto:yourname@example.com">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <rect x="2" y="4" width="20" height="16" rx="2"/>
+          <path d="m2 7 10 7 10-7"/>
+        </svg>
+        yourname@example.com
+      </a>
+    </li>
+
+    <li>
+      <span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+          <circle cx="12" cy="9" r="2.5"/>
+        </svg>
+        City, Country
+      </span>
+    </li>
+
+    <li>
+      <a href="https://github.com/mariannamiola" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2C6.48 2 2 6.48 2 12c0 4.42 2.87 8.17 6.84 9.49.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.52 1.02 1.52 1.02.89 1.52 2.34 1.08 2.91.83.09-.64.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.26-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.56 9.56 0 0 1 12 6.8c.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.38.2 2.39.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.34 4.7-4.57 4.94.36.31.68.92.68 1.86v2.76c0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12c0-5.52-4.48-10-10-10z"/>
+        </svg>
+        GitHub
+      </a>
+    </li>
+
+    <li>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zM3.56 20.45h3.56V9H3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.46c.98 0 1.77-.77 1.77-1.72V1.72C24 .77 23.21 0 22.23 0z"/>
+        </svg>
+        LinkedIn
+      </a>
+    </li>
+
+    <li>
+      <a href="https://scholar.google.com/citations?user=YOURID" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M5.242 13.769 0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
+        </svg>
+        Google Scholar
+      </a>
+    </li>
+
+    <li>
+      <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.2 4.8a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4zm-.9 4.2h1.8v10.2H6.3V9zm4.2 0h4.8c4.56 0 6.54 2.7 6.54 5.1 0 2.7-2.4 5.1-6.54 5.1h-4.8V9zm1.8 1.8v6.6h2.76c2.52 0 4.44-1.38 4.44-3.3 0-1.74-1.62-3.3-4.44-3.3h-2.76z"/>
+        </svg>
+        ORCID
+      </a>
+    </li>
+
+  </ul>
+
+  <!-- Page navigation -->
+  <nav class="sb-nav">
+    <a href="{{ '/' | relative_url }}"{% if page.url == '/' or page.url == '/index.html' %} class="active"{% endif %}>Home</a>
+    <a href="{{ '/research/' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>Research</a>
+    <a href="{{ '/talks/' | relative_url }}"{% if page.url contains 'talks' %} class="active"{% endif %}>Talks &amp; Seminars</a>
+    <a href="{{ '/resources/' | relative_url }}"{% if page.url contains 'resources' %} class="active"{% endif %}>Resources</a>
+  </nav>
+
+</aside>
+
+<!-- ══════════════════════════════════════════
+     MAIN CONTENT
+══════════════════════════════════════════ -->
+<div class="page-wrap">
+  <div class="page-inner">
+
+    <!-- Top tab navigation (mirrors sidebar nav) -->
+    <nav class="top-nav">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' or page.url == '/index.html' %} class="active"{% endif %}>Home</a>
+      <a href="{{ '/research/' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>Research</a>
+      <a href="{{ '/talks/' | relative_url }}"{% if page.url contains 'talks' %} class="active"{% endif %}>Talks &amp; Seminars</a>
+      <a href="{{ '/resources/' | relative_url }}"{% if page.url contains 'resources' %} class="active"{% endif %}>Resources</a>
+    </nav>
+
+    {{ content }}
 
     <footer class="site-footer">
-      <div class="footer-inner">
-        <span>© {{ "now" | date: "%Y" }} {{ site.title }}. Built with <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.</span>
-      </div>
+      © {{ 'now' | date: "%Y" }} Marianna Miola ·
+      Powered by <a href="https://jekyllrb.com">Jekyll</a> ·
+      Last updated: {{ 'now' | date: "%Y-%m-%d" }}
     </footer>
 
-    <script>
-      (function() {
-        const root = document.documentElement;
-        const toggle = document.querySelector('.theme-toggle');
-        const icon = toggle?.querySelector('.theme-toggle__icon');
-        const stored = localStorage.getItem('theme');
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        const setTheme = (theme) => {
-          root.setAttribute('data-theme', theme);
-          if (!toggle) return;
-          toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
-          if (icon) icon.textContent = theme === 'dark' ? '☀️' : '🌙';
-        };
-        const initial = stored || (prefersDark ? 'dark' : 'light');
-        setTheme(initial);
-        toggle?.addEventListener('click', () => {
-          const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-          setTheme(next);
-          localStorage.setItem('theme', next);
-        });
-      })();
-    </script>
-  </body>
+  </div>
+</div>
+
+</body>
 </html>

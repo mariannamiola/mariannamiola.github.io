@@ -1,21 +1,20 @@
 # GitHub Pages configuration
-# See: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll
 
 title: "Marianna Miola"
 description: "Personal website and CV"
-url: ""
+url: "https://mariannamiola.github.io"
 baseurl: ""
 
-# Use pretty permalinks so /research/ and similar work as expected
 permalink: /:title/
 
+# Keep minima as base but all layout is handled by custom _layouts/default.html
 theme: minima
 
-# Optional: enable syntax highlighting and plugins
 markdown: kramdown
 highlighter: rouge
 
-# Social links (optional)
-social:
-  - name: GitHub
-    url: https://github.com/mariannamiola
+# Exclude files from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
