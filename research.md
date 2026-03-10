@@ -46,13 +46,6 @@ My research combines **computational geometry**, **geostatistics**, and **enviro
     <div class="entry-title">GEO3D</div>
     Software for 3D geometric modeling of stratified deposits with applications in geophysics. Developed during the GEO3D Research Fellowship at CNR-IMATI. <em>Role: Author, designer, developer.</em>
   </li>
-
-  <!-- <li>
-    <div class="entry-meta">C++ Library · SGP 2024 Software Award</div>
-    <div class="entry-title"><a href="https://github.com/mlivesu/cinolib">CinoLib</a></div>
-    C++ library for polygonal/polyhedral mesh processing (lead developer: Marco Livesu, CNR-IMATI). <em>Role: contributor.</em>
-  </li> -->
-
 </ul>
 
 ---
@@ -68,38 +61,38 @@ My research combines **computational geometry**, **geostatistics**, and **enviro
   </li> -->
 
   <li>
-    <div class="entry-meta">Computers & Geosciences · 2026 </div>
-    <div class="entry-title"><a href="https://doi.org/10.1016/j.cageo.2025.106099">DOI</a>EWoPe: a light Embeddable WOrkflow PErsistence tool for geoscientific pipeline reproducibility</div>
+    <div class="entry-meta">Computers &amp; Geosciences · 2026</div>
+    <div class="entry-title"><a href="https://doi.org/10.1016/j.cageo.2025.106099">EWoPe: a light Embeddable WOrkflow PErsistence tool for geoscientific pipeline reproducibility</a></div>
     <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Micaela Raviola, Marino Vetuschi Zuccolini
   </li>
 
   <li>
-    <div class="entry-meta">Computers & Geosciences · 2026 · <a href="https://doi.org/10.1016/j.cageo.2025.106041">DOI</a></div>
-    <div class="entry-title">Segmentation of stochastic scalar fields in unstructured meshes</div>
+    <div class="entry-meta">Computers &amp; Geosciences · 2026</div>
+    <div class="entry-title"><a href="https://doi.org/10.1016/j.cageo.2025.106041">Segmentation of stochastic scalar fields in unstructured meshes</a></div>
     Tommaso Sorgente, <strong>Marianna Miola</strong>, Simone Pittaluga, Daniela Cabiddu, Michela Mortara, Marino Vetuschi Zuccolini
   </li>
 
   <li>
-    <div class="entry-meta">Environmental Geochemistry and Health · 2025 · <a href="https://doi.org/10.1007/s10653-025-02475-z">DOI</a></div>
-    <div class="entry-title">Geochemical baseline values and spatial distribution of major, trace, and rare earth elements in unpolluted soils of the Sicily region (Italy)</div>
+    <div class="entry-meta">Environmental Geochemistry and Health · 2025</div>
+    <div class="entry-title"><a href="https://doi.org/10.1007/s10653-025-02475-z">Geochemical baseline values and spatial distribution of major, trace, and rare earth elements in unpolluted soils of the Sicily region (Italy)</a></div>
     Daniela Varrica, Federica Lo Medico, Marino Vetuschi Zuccolini, <strong>Marianna Miola</strong>, Maria Grazia Alaimo
   </li>
 
   <li>
-    <div class="entry-meta">Applied Geochemistry · 2024 · <a href="https://doi.org/10.1016/j.apgeochem.2024.106260">DOI</a></div>
-    <div class="entry-title">Towards a definition of a spatial geochemical compatibility: workflow, validation and application</div>
+    <div class="entry-meta">Applied Geochemistry · 2024</div>
+    <div class="entry-title"><a href="https://doi.org/10.1016/j.apgeochem.2024.106260">Towards a definition of a spatial geochemical compatibility: workflow, validation and application</a></div>
     Marino Vetuschi Zuccolini, Simone Pittaluga, <strong>Marianna Miola</strong>
   </li>
 
   <li>
-    <div class="entry-meta">Science of The Total Environment · 2024 · <a href="https://doi.org/10.1016/j.scitotenv.2024.176951">DOI</a></div>
-    <div class="entry-title">Geochemical baseline values determination and spatial distribution of trace elements in topsoils: an application in Sicily region (Italy)</div>
+    <div class="entry-meta">Science of The Total Environment · 2024</div>
+    <div class="entry-title"><a href="https://doi.org/10.1016/j.scitotenv.2024.176951">Geochemical baseline values determination and spatial distribution of trace elements in topsoils: an application in Sicily region (Italy)</a></div>
     Daniela Varrica, Federica Lo Medico, Marino Vetuschi Zuccolini, <strong>Marianna Miola</strong>, Maria Grazia Alaimo
   </li>
 
   <li>
-    <div class="entry-meta">Computers & Graphics · 2022 · <a href="https://doi.org/10.1016/j.cag.2022.05.002">DOI</a></div>
-    <div class="entry-title">A computational approach for 3D modeling and integration of heterogeneous geo-data</div>
+    <div class="entry-meta">Computers &amp; Graphics · 2022</div>
+    <div class="entry-title"><a href="https://doi.org/10.1016/j.cag.2022.05.002">A computational approach for 3D modeling and integration of heterogeneous geo-data</a></div>
     <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Michela Mortara, Marino Vetuschi Zuccolini, Gianmario Imitazione
   </li>
 
@@ -112,9 +105,9 @@ My research combines **computational geometry**, **geostatistics**, and **enviro
 <ul class="entry-list">
 
   <li>
-    <div class="entry-meta">STAG 2025 — Eurographics Italian Chapter · <a href="https://doi.org/10.2312/stag.20251318">DOI</a></div>
-    <div class="entry-title">A lightweight open-source tool for Meshing within Geosciences</div>
-    <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Micaela Raviola, Marino Vetuschi Zuccolini
+    <div class="entry-meta">STAG 2025 — Eurographics Italian Chapter</div>
+    <div class="entry-title"><a href="https://doi.org/10.2312/stag.20251318">A lightweight open-source tool for Meshing within Geosciences</a></div>
+    <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Micaela Raviola, Marino Vetuschi Zuccolini · <em>Oral presentation</em>
   </li>
 
   <li>
@@ -124,15 +117,15 @@ My research combines **computational geometry**, **geostatistics**, and **enviro
   </li>
 
   <li>
-    <div class="entry-meta">OTC Offshore Technology Conference · 2024 · <a href="https://doi.org/10.4043/35265-MS">DOI</a></div>
-    <div class="entry-title">3D Ground Model: An Alternative Approach for the Treatment of Heterogeneously Distributed Spatial Data</div>
+    <div class="entry-meta">OTC Offshore Technology Conference · 2024</div>
+    <div class="entry-title"><a href="https://doi.org/10.4043/35265-MS">3D Ground Model: An Alternative Approach for the Treatment of Heterogeneously Distributed Spatial Data</a></div>
     Gianmario Imitazione, Francesca Zolezzi, Agnese Murianni, Fiammetta Giovacchini, <strong>Marianna Miola</strong>
   </li>
 
   <li>
-    <div class="entry-meta">STAG 2021 — Eurographics Italian Chapter · <a href="https://doi.org/10.2312/stag.20211473">DOI</a></div>
-    <div class="entry-title">3D Modeling and Integration of Heterogeneous Geo-data</div>
-    <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Michela Mortara, Marino Vetuschi Zuccolini, Gianmario Imitazione
+    <div class="entry-meta">STAG 2021 — Eurographics Italian Chapter</div>
+    <div class="entry-title"><a href="https://doi.org/10.2312/stag.20211473">3D Modeling and Integration of Heterogeneous Geo-data</a></div>
+    <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Michela Mortara, Marino Vetuschi Zuccolini, Gianmario Imitazione · <em>Oral presentation</em>
   </li>
 
 </ul>
@@ -150,14 +143,14 @@ My research combines **computational geometry**, **geostatistics**, and **enviro
   </li>
 
   <li>
-    <div class="entry-meta">STAG 2024 — Best Poster Award · <a href="https://doi.org/10.2312/stag.20241350">DOI</a></div>
-    <div class="entry-title">Advancing Environmental Modeling with Unstructured Meshes: Current Research and Development</div>
+    <div class="entry-meta">STAG 2024 — Best Poster Award</div>
+    <div class="entry-title"><a href="https://doi.org/10.2312/stag.20241350">Advancing Environmental Modeling with Unstructured Meshes: Current Research and Development</a></div>
     <strong>Marianna Miola</strong>, Daniela Cabiddu, Michela Mortara, Simone Pittaluga, Tommaso Sorgente, Marino Vetuschi Zuccolini
   </li>
 
   <li>
-    <div class="entry-meta">STAG 2022 — Eurographics Italian Chapter · <a href="https://doi.org/10.2312/stag.20221265">DOI</a></div>
-    <div class="entry-title">MUSE: Modeling Uncertainty as a Support for Environment</div>
+    <div class="entry-meta">STAG 2022 — Eurographics Italian Chapter</div>
+    <div class="entry-title"><a href="https://doi.org/10.2312/stag.20221265">MUSE: Modeling Uncertainty as a Support for Environment</a></div>
     <strong>Marianna Miola</strong>, Daniela Cabiddu, Simone Pittaluga, Marino Vetuschi Zuccolini
   </li>
 
