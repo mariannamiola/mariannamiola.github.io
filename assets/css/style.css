@@ -185,7 +185,6 @@ body {
 
 /* ── Main content ─────────────────────────────────────── */
 .page-wrap {
-  margin-left: var(--sidebar-w);
   flex: 1;
   padding: 3.5rem 2.5rem 5rem;
   min-width: 0;
@@ -442,7 +441,6 @@ code {
   .sb-nav { display: none; }
 
   .page-wrap {
-    margin-left: 0;
     padding: 1.8rem 1.2rem 3rem;
   }
 
