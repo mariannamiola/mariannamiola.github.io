@@ -336,8 +336,10 @@ code {
   font-size: .9rem;
 }
 
-.timeline li:first-child { border-top: 1px solid var(--border); }
-.timeline li:last-child  { border-bottom: 1px solid var(--border); }
+/*.timeline li:first-child { border-top: 1px solid var(--border); }
+.timeline li:last-child  { border-bottom: 1px solid var(--border); }*/
+.timeline li:first-child { border-top: none; }
+.timeline li:last-child  { border-bottom: none; }
 
 .tl-date {
   font-family: var(--mono);
@@ -382,7 +384,9 @@ code {
   color: var(--text-soft);
 }
 
-.entry-list li:first-child { border-top: 1px solid var(--border); }
+/*.entry-list li:first-child { border-top: 1px solid var(--border); }*/
+.entry-list li:first-child { border-top: none; }
+.entry-list li:last-child { border-bottom: none; }
 
 .entry-meta {
   font-family: var(--mono);
