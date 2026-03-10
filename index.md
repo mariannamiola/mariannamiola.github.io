@@ -1,15 +1,27 @@
 ---
 layout: default
-title: "My Resume"
+title: "Home"
 ---
 
-# Hi, I’m [Marianna Miola](https://github.com/mariannamiola)
+<div class="hero">
+  # Hi, I’m [Marianna Miola](https://github.com/mariannamiola)
 
-_Welcome to my personal page! Here you’ll find my resume, key projects, and ways to get in touch._
+  <p>Welcome to my personal page! Here you’ll find my projects, research work, talks, and resources.</p>
+
+  <p>
+    <a class="btn btn-primary" href="/assets/CV.pdf" download>
+      Download CV (PDF)
+    </a>
+  </p>
+</div>
 
 ---
 
-## 🎯 Profile
+<div class="section" id="profile">
+
+<div class="section-header">
+  <h2 class="section-title">Profile</h2>
+</div>
 
 A short professional summary (who you are, what you do, and your goals).
 
@@ -17,60 +29,115 @@ A short professional summary (who you are, what you do, and your goals).
 - Years of experience and main industries
 - Key skills (e.g., languages, tools, methodologies)
 
----
-
-## 💼 Work Experience
-
-### Company A — Role
-*Period (mm/yyyy – mm/yyyy)*
-
-- Brief description of the role and key outcomes
-- Technologies used: `Python`, `JavaScript`, `React`, etc.
-- Measurable result (e.g., improved X by Y%, led project Z)
-
-### Company B — Role
-*Period (mm/yyyy – mm/yyyy)*
-
-- Key achievement 1
-- Key achievement 2
+</div>
 
 ---
 
-## 🎓 Education
+<div class="section" id="work">
 
-- **Degree in [Program Name]** — University XYZ (yyyy–yyyy)
-- **Certification ABC** — Issuing organization (yyyy)
+<div class="section-header">
+  <h2 class="section-title">Work Experience</h2>
+</div>
 
----
+<ol class="timeline">
+  <li class="timeline-item">
+    <h3>Company A — Role</h3>
+    <div class="meta">mm/yyyy – mm/yyyy</div>
+    <ul>
+      <li>Brief description of the role and key outcomes</li>
+      <li>Technologies used: <code>Python</code>, <code>JavaScript</code>, <code>React</code></li>
+      <li>Measurable result (e.g., improved X by Y%, led project Z)</li>
+    </ul>
+  </li>
 
-## 🛠️ Skills
-
-- **Languages:** JavaScript, Python, TypeScript
-- **Frameworks / Libraries:** React, Vue, Node.js
-- **Tools / DevOps:** Git, GitHub Actions, Docker
-- **Other skills:** UX/UI, Agile, Scrum
-
----
-
-## 🧩 Key Projects
-
-### [Project Name 1](https://github.com/mariannamiola/progetto1)
-
-- Brief description of the project and your role
-- Main technologies used
-
-### [Project Name 2](https://github.com/mariannamiola/progetto2)
-
-- Short description and impact
-
----
-
-## 📫 Contact
-
-- Email: yourname@example.com
-- LinkedIn: https://linkedin.com/in/yourprofile
-- GitHub: https://github.com/mariannamiola
+  <li class="timeline-item">
+    <h3>Company B — Role</h3>
+    <div class="meta">mm/yyyy – mm/yyyy</div>
+    <ul>
+      <li>Key achievement 1</li>
+      <li>Key achievement 2</li>
+    </ul>
+  </li>
+</ol>
+</div>
 
 ---
 
-> _I’ll keep this page updated with new experience and projects._
+<div class="section" id="education">
+
+<div class="section-header">
+  <h2 class="section-title">🎓 Education</h2>
+</div>
+
+<div class="card">
+  <h3>Degree in [Program Name]</h3>
+  <div class="meta">University XYZ (yyyy–yyyy)</div>
+  <ul>
+    <li>Capstone / Thesis: [Optional]</li>
+  </ul>
+</div>
+
+<div class="card">
+  <h3>Certification ABC</h3>
+  <div class="meta">Issuing organization (yyyy)</div>
+</div>
+</div>
+
+---
+
+<div class="section" id="skills">
+
+<div class="section-header">
+  <h2 class="section-title">🛠️ Skills</h2>
+</div>
+
+<div class="card">
+  <ul>
+    <li><strong>Languages</strong>: JavaScript, Python, TypeScript</li>
+    <li><strong>Frameworks / Libraries</strong>: React, Vue, Node.js</li>
+    <li><strong>Tools / DevOps</strong>: Git, GitHub Actions, Docker</li>
+    <li><strong>Other skills</strong>: UX/UI, Agile, Scrum</li>
+  </ul>
+</div>
+</div>
+
+---
+
+<div class="section" id="projects">
+
+<div class="section-header">
+  <h2 class="section-title">🧩 Key Projects</h2>
+</div>
+
+<div class="card">
+  <h3><a href="https://github.com/mariannamiola/progetto1">Project Name 1</a></h3>
+  <p>Brief description of the project and your role.</p>
+  <div class="meta">Main technologies used</div>
+</div>
+
+<div class="card">
+  <h3><a href="https://github.com/mariannamiola/progetto2">Project Name 2</a></h3>
+  <p>Short description and impact.</p>
+</div>
+</div>
+
+---
+
+<div class="section" id="contact">
+
+<div class="section-header">
+  <h2 class="section-title">📫 Contact</h2>
+</div>
+
+<div class="card">
+  <ul>
+    <li>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></li>
+    <li>LinkedIn: <a href="https://linkedin.com/in/yourprofile">yourprofile</a></li>
+    <li>GitHub: <a href="https://github.com/mariannamiola">mariannamiola</a></li>
+  </ul>
+</div>
+</div>
+
+---
+
+<div class="section-footer">_I’ll keep this page updated with new experience and projects._</div>
