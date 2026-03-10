@@ -21,75 +21,8 @@ My research sits at the intersection of **computational geometry**, **geostatist
 
 **Geomorphological processes** — I am currently working on injecting biodiversity in the modeling of rainfall-induced phenomena (erosion, shallow landslides), within the framework of the [National Biodiversity Future Center (NBFC)](https://www.nbfc.it) Project.
 
-## Education
 
-<ul class="timeline">
-  <li>
-    <div class="tl-date">2022 – 2024</div>
-    <div class="tl-role">PhD in Science and Technologies for the Earth and Environment · University of Genoa, Italy</div>
-    <ul class="tl-desc">
-      Curriculum: Earth Sciences · Grade: With highest honors · Dissertation: 15 April 2025
-      Thesis: <em>Increase the knowledge of Natural Systems through the evaluation of uncertainty of environmental data: operational theory and application</em>
-      <li>Supervisors: Prof. Marino Vetuschi Zuccolini · Dr. Simone Pittaluga</li>
-      <li>Green PhD Scholarship (NOP "Research and Innovation" 2014–2020, REACT-EU)</li>
-      <li>Affiliated Research Associate at CNR-IMATI during the PhD · Industrial partner: DIGIMAT (Matera)</li>
-    </ul>
-  </li>
-  <li>
-    <div class="tl-date">2019</div>
-    <div class="tl-role">Professional Engineering License (Civil and Environmental) · Politecnico di Torino, Italy</div>
-  </li>
-  <li>
-    <div class="tl-date">2015 – 2018</div>
-    <div class="tl-role">M.Sc. in Geotechnical Civil Engineering · Politecnico di Torino, Italy · 105/110</div>
-    <ul class="tl-desc">
-      <li>Supervisor: Prof. Sebastiano Foti</li>
-      <li>Thesis: <em>Interpretazione dei dati sperimentali di prove sismiche in sito ed analisi di risposta sismica locale monodimensionale</em></li>
-    </ul>
-  </li>
-  <li>
-    <div class="tl-date">2011 – 2015</div>
-    <div class="tl-role">B.Sc. in Civil Engineering · Politecnico di Torino, Italy · 97/110</div>
-  </li>
-</ul>
-
-## Work Experience
-
-<ul class="timeline">
-  <li>
-    <div class="tl-date">January 2025 – present</div>
-    <div class="tl-role">III Level Researcher (fixed-term) · CNR-IMATI, Genoa, Italy</div>
-    <ul class="tl-desc">
-      <li>Research within the <strong>National Biodiversity Future Center (NBFC)</strong> Project — Spoke 4 "Ecosystem functions, services and solutions".</li>
-      <li>Computational modeling of rainfall-induced phenomena (erosion, landslides); geomorphological analysis; development in Python and R.</li>
-      <li>Collaboration with CNR-IRPI (Perugia, Italy).</li>
-    </ul>
-  </li>
-  <li>
-    <div class="tl-date">March 2022 – December 2024</div>
-    <div class="tl-role">Affiliated Research Associate · CNR-IMATI, Genoa, Italy</div>
-    <ul class="tl-desc">
-      <li>Methods and algorithms for geospatial data management; uncertainty representation in environmental data; 3D heterogeneous model integration for monitoring natural and urban environments.</li>
-    </ul>
-  </li>
-  <li>
-    <div class="tl-date">December 2019 – December 2021</div>
-    <div class="tl-role">Research Fellow · CNR-IMATI, Genoa, Italy</div>
-    <ul class="tl-desc">
-      <li><strong>GEO3D Project</strong> (Regione Liguria FSE 2014–2020): 3D volumetric modeling of stratified subsurface geometries from geophysical and geotechnical data, implemented in C++.</li>
-      <li>Supervisor: Dr. Michela Mortara · Industry partner: RINA Consulting (Genoa).</li>
-    </ul>
-  </li>
-  <li>
-    <div class="tl-date">November 2018 – November 2019</div>
-    <div class="tl-role">Consulting Collaborator · ALISEA srl, Turin, Italy</div>
-    <ul class="tl-desc">
-      <li>Design and verification of foundation projects and retaining structures; geotechnical characterization; preparation of geotechnical reports.</li>
-    </ul>
-  </li>
-</ul>
-
-## Honors & Awards
+<!-- ## Honors & Awards
 
 <ul class="timeline">
   <li>
@@ -103,7 +36,7 @@ My research sits at the intersection of **computational geometry**, **geostatist
       <li>First author: <em>Advancing Environmental Modeling with Unstructured Meshes: Current Research and Development</em>.</li>
     </ul>
   </li>
-</ul>
+</ul> -->
 
 ## Skills
 
