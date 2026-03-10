@@ -6,6 +6,9 @@ description: "Personal website and CV"
 url: ""
 baseurl: ""
 
+# Use pretty permalinks so /research/ and similar work as expected
+permalink: /:title/
+
 theme: minima
 
 # Optional: enable syntax highlighting and plugins

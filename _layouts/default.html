@@ -11,12 +11,17 @@
     <header class="site-header">
       <div class="header-inner">
         <a class="brand" href="/">{{ site.title }}</a>
+
         <nav class="site-nav">
           <a href="/" class="nav-link{% if page.url == '/' %} active{% endif %}">Home</a>
-          <a href="/research" class="nav-link{% if page.url == '/research/' %} active{% endif %}">Research</a>
-          <a href="/talks" class="nav-link{% if page.url == '/talks/' %} active{% endif %}">Talks</a>
-          <a href="/resources" class="nav-link{% if page.url == '/resources/' %} active{% endif %}">Resources</a>
+          <a href="/research/" class="nav-link{% if page.url == '/research/' %} active{% endif %}">Research</a>
+          <a href="/talks/" class="nav-link{% if page.url == '/talks/' %} active{% endif %}">Talks</a>
+          <a href="/resources/" class="nav-link{% if page.url == '/resources/' %} active{% endif %}">Resources</a>
         </nav>
+
+        <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <span class="theme-toggle__icon" aria-hidden="true">🌙</span>
+        </button>
       </div>
     </header>
 
@@ -29,5 +34,28 @@
         <span>© {{ "now" | date: "%Y" }} {{ site.title }}. Built with <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.</span>
       </div>
     </footer>
+
+    <script>
+      (function() {
+        const root = document.documentElement;
+        const toggle = document.querySelector('.theme-toggle');
+        const icon = toggle?.querySelector('.theme-toggle__icon');
+        const stored = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const setTheme = (theme) => {
+          root.setAttribute('data-theme', theme);
+          if (!toggle) return;
+          toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+          if (icon) icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+        };
+        const initial = stored || (prefersDark ? 'dark' : 'light');
+        setTheme(initial);
+        toggle?.addEventListener('click', () => {
+          const next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+          setTheme(next);
+          localStorage.setItem('theme', next);
+        });
+      })();
+    </script>
   </body>
 </html>
