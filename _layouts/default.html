@@ -111,9 +111,9 @@
 
     <nav class="top-nav">
       <a href="{{ '/' | relative_url }}"{% if page.url == '/' or page.url == '/index.html' %} class="active"{% endif %}>Home</a>
-      <a href="{{ '/research/' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>Research</a>
-      <a href="{{ '/talks/' | relative_url }}"{% if page.url contains 'talks' %} class="active"{% endif %}>Talks &amp; Seminars</a>
-      <a href="{{ '/resources/' | relative_url }}"{% if page.url contains 'resources' %} class="active"{% endif %}>Resources</a>
+      <a href="{{ '/research/' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>Pubblications</a>
+<!--      <a href="{{ '/talks/' | relative_url }}"{% if page.url contains 'talks' %} class="active"{% endif %}>Talks &amp; Seminars</a>-->
+      <a href="{{ '/resources/' | relative_url }}"{% if page.url contains 'resources' %} class="active"{% endif %}>Software and libraries</a>
     </nav>
 
     {{ content }}
